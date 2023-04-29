@@ -302,7 +302,7 @@ Underground plumbing
 
 name: system2
 
-background-image: url("images/jetty_sunset2.jpg")
+background-image: url("images/jetty_sunset.png")
 background-size: cover
 
 
@@ -323,7 +323,7 @@ background-size: cover
 .panel[.panel-name[Mechanical filtration]
 
 .pull-left[
-<img src="images/biofilter2.jpg" width="360" height="300" />
+<img src="images/biofilter.png" width="360" height="300" />
 .caption[
 Fractionator, Flocculation & DAF unit
 ]
