@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>National Marine Aquarium</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="        Sebbi Kankondi" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/jquery/jquery.min.js"></script>
+    <link href="libs/leaflet/leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet/leaflet.js"></script>
+    <link href="libs/leafletfix/leafletfix.css" rel="stylesheet" />
+    <script src="libs/proj4/proj4.min.js"></script>
+    <script src="libs/Proj4Leaflet/proj4leaflet.js"></script>
+    <link href="libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+    <script src="libs/leaflet-binding/leaflet.js"></script>
+    <script src="libs/leaflet-providers/leaflet-providers_1.9.0.js"></script>
+    <script src="libs/leaflet-providers-plugin/leaflet-providers-plugin.js"></script>
+    <link rel="stylesheet" href="title_styles.css" type="text/css" />
+    <link rel="stylesheet" href="text_colour.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: title-slide, top, left, inverse
+background-image: url("images/aquarium_use.png")
+background-size: cover
+
+# **National Marine Aquarium**
+## ** **
+### &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Sebbi Kankondi
+### **Ministry of Fisheries &lt;br/&gt;&amp; Marine Resources &lt;b/&gt;(MFMR)**
+### 2023-04-29
+
+
+
+
+
+
+
+---
+
+# The .blue[National Marine Aquarium]
+
+.left-column[
+
+- **Open 1995**
+
+]
+.right-column[
+
+&lt;img src="images/nujoma3.png" width="440" height="440" /&gt;
+.caption[Hon. Sam Nujoma
+]
+]
+
+---
+
+# The .blue[National Marine Aquarium]
+
+.left-column[
+
+- **Planned &amp; constructed by Namibians**
+
+]
+
+.right-column[
+
+&lt;img src="images/construction2.png" width="440" height="440" /&gt;
+.caption[Coastal construction
+]
+
+]
+
+
+---
+
+name: activities
+
+# Several activities at .blue[aquarium]
+
+
+---
+
+template: activities
+
+.pull-left[
+
+## Education
+
+- Visiting groups
+   - Presentations
+   - Floor tours
+   - Discuss Namibian .blue[marine life &amp; Aquarium system]
+
+]
+
+.pull-right[
+
+&lt;img src="images/education1.png" width="460" height="450" /&gt;
+.caption[Visiting school group
+]
+]
+
+---
+
+template: activities
+
+.pull-left[
+
+## Research
+
+- Sizing activities
+   - Determine .blue[growth rates]
+- Monitor behaviour 
+   - Called .blue[ethology]
+
+]
+
+.pull-right[
+
+&lt;img src="images/sizing.png" width="460" height="450" /&gt;
+.caption[Measuring Galjoen length
+]
+]
+
+---
+
+template: activities
+
+.pull-left[
+
+## Conservation
+
+- Rescue and .blue[rehabilitation] center
+   - Care for .blue[ill, injured or stranded] marine animals
+]
+
+.pull-right[
+
+&lt;img src="images/rehab1.png" width="460" height="450" /&gt;
+.caption[Treating injured sea turtle
+]
+]
+
+
+---
+
+name: interior
+
+background-image: url("images/main_tunnel.gif")
+background-size: cover
+
+
+# Inside the .blue[Aquarium]
+
+.itl-orange[
+**Two main sections**
+]
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+.panel[.panel-name[Main tank]
+.pull-left[
+&lt;img src="images/main_tunnel.gif" width="400" height="340" /&gt;
+.caption[
+Tunnel section
+]
+]
+.pull-right[
+- Majority of .blue[large fish] species
+- .blue[4.5m] deep
+- .blue[320 000 liters] sea water
+- 10cm thick acrylic glass display panels
+]
+]
+
+
+.panel[.panel-name[Small tanks]
+
+.pull-left[
+&lt;img src="images/inter_display.gif" width="400" height="340" /&gt;
+.caption[
+Intertidal display section
+]
+]
+.pull-right[
+- 17 tanks
+- Mostly .blue[smaller intertidal] species
+]
+]
+]
+
+---
+
+
+name: system
+
+background-image: url("images/pier.png")
+background-size: cover
+
+
+# How does the .blue[Aquarium] work??
+
+.itl-orange[
+**Sea water transport**
+]
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+.panel[.panel-name[Water intake]
+.pull-left[
+&lt;img src="images/pump_elbow2.jpg" width="400" height="340" /&gt;
+.caption[
+Submersible water pump
+]
+]
+.pull-right[
+- Pump held .blue[under] the sea surface
+- Takes in .blue[sea] water
+- 1 liter per second
+]
+]
+
+
+.panel[.panel-name[Transport system]
+
+
+.pull-left[
+<div id="htmlwidget-7357b19b260908f32ee8" style="width:100%;height:432px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7357b19b260908f32ee8">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircleMarkers","args":[[-22.55602,-22.685417,-22.945608,-26.63871,-18.158867,-17.79151,-17.42599,-24.47771,-26.597409,-23.506691,-17.630239,-17.444554],[17.08414,14.522991,14.503549,15.15206,21.68891,15.77385,14.6484,17.88341,18.187186,18.769963,18.617849,14.789601],3,null,null,{"interactive":true,"className":"","stroke":true,"color":"#FF4500","weight":5,"opacity":1,"fill":true,"fillColor":"#FF4500","fillOpacity":0.2},null,null,null,null,["<p> headquarters <p/> <p> administration <p/> <p> windhoek <p/>","<p> natmirc <p/> <p> research_mariculture <p/> <p> swakopmund <p/>","<p> operations <p/> <p> inspectorate <p/> <p> walvis_bay <p/>","<p> lmr <p/> <p> research_mariculture <p/> <p> luderitz <p/>","<p> kifi <p/> <p> research_fingerling_fish <p/> <p> divundu <p/>","<p> ongwediva_iac <p/> <p> fingerling_fish <p/> <p> ongwediva <p/>","<p> epalela <p/> <p> fish <p/> <p> epalela <p/>","<p> hardap_iac <p/> <p> research_fingerling_fish <p/> <p> hardap <p/>","<p> fonteintjie <p/> <p> fish <p/> <p> keetmanshoop <p/>","<p> leonardville_iac <p/> <p> fish <p/> <p> leonardville <p/>","<p> mpungu <p/> <p> fish <p/> <p> nkurenkuru <p/>","<p> onavivi_iac <p/> <p> research_feed <p/> <p> onavivi <p/>"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"setView":[[-22.6854,14.52294],15,[]],"limits":{"lat":[-26.63871,-17.42599],"lng":[14.503549,21.68891]}},"evals":[],"jsHooks":[]}</script>
+.caption[
+Underground plumbing 
+]
+]
+
+.pull-right[
+- Pipes .blue[under] jetty floor boards &amp; pavement
+- Transports water into aquarium
+]
+]
+]
+
+
+---
+
+
+
+name: system2
+
+background-image: url("images/jetty_sunset.jpg")
+background-size: cover
+
+
+# How does the .blue[Aquarium] work??
+
+.itl-orange[
+**Sea water filtration**
+]
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+
+
+.panel[.panel-name[Mechanical filtration]
+
+.pull-left[
+&lt;img src="images/biofilter.jpg" width="360" height="300" /&gt;
+.caption[
+Fractionator, Flocculation &amp; DAF unit
+]
+]
+.pull-right[
+- 1st port of .blue[water entry] into building
+- DAF = Dissolved Air Flotation
+- Works with .blue[flocculation] process
+- .blue[Removes] suspended solids e.g., phytoplankton
+]
+]
+
+
+
+.panel[.panel-name[Flocculation]
+
+.pull-left[
+&lt;img src="images/flocculation.gif" width="360" height="300" /&gt;
+.caption[
+Flocculation process
+]
+]
+.pull-right[
+- Suspended solid material .blue[coagulated] (small lumps form bigger lumps)
+- Dissolved .blue[air surrounds] coagulated material
+- Coagulated material .blue[floats]
+- .blue[Skimmed] off the top as waste
+- Also removed at .blue[bottom] as sludge
+- Partially cleaned water transported .blue[to filter tanks]
+
+]
+]
+
+
+.panel[.panel-name[Chemical filtration]
+
+.pull-left[
+&lt;img src="images/filter_tanks.jpg" width="330" height="300" /&gt;
+.caption[
+Filter tanks
+]
+]
+.pull-right[
+- Water passed through filter tanks
+   - Contains activated filter media
+- Removes unwanted solids &amp; impurities
+]
+]
+
+.panel[.panel-name[Activated filter media]
+
+.pull-left[
+&lt;img src="images/filtration.gif" width="360" height="300" /&gt;
+.caption[
+Cross section of filtration process
+]
+]
+.pull-right[
+- Also called activated charcoal/carbon
+- Removes .blue[micropollutants] through adsorption
+   - Unwanted dissolved molecules .blue[attach] to surface of filter media
+   - e.g., chemicals, medications, heavy metals
+- .blue[Clean] water transported to main and small tanks
+
+]
+]
+
+
+
+.panel[.panel-name[Biological filtration]
+
+.pull-left[
+&lt;img src="images/gravel.gif" width="330" height="300" /&gt;
+.caption[
+Aquarium gravel
+]
+]
+.pull-right[
+- Biological .blue[waste] collects in display tanks
+   - Urea, fecal &amp; decaying matter
+- Increased .blue[toxic] compounds e.g., ammonia &amp; nitrite
+- Removed by .blue[bacteria in gravel] at bottom of main tank
+
+]
+]
+
+
+.panel[.panel-name[Nitrifying bacteria]
+
+.pull-left[
+&lt;img src="images/bacteria.gif" width="330" height="300" /&gt;
+.caption[
+Bacterial multiplication
+]
+]
+.pull-right[
+- Gravel provides .blue[large surface] area for nitrifying bacteria
+- Bacteria breakdown toxic compounds into .blue[less toxic] nitrate
+- Helps create .blue[safe], clean environment for aquatic animals
+
+]
+]
+
+
+]
+
+
+???
+
+Add video describing flocculation
+
+Add video describing chemical filtration
+Add picture of main tank view from entrance.
+Add video describing bio-filtration
+
+---
+
+name: sample-collection
+
+background-image: url("images/intertidal.gif")
+background-size: cover
+
+
+# How are the .blue[marine animals] collected
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+
+.panel[.panel-name[Intertidal sampling]
+
+.pull-left[
+&lt;img src="images/intertidal.gif" width="400" height="390" /&gt; 
+.caption[
+Drone footage of rocky intertidal near Luderitz
+]
+]
+.pull-right[
+- Collect small display animals from rocky shores
+- .blue[Found in:]
+   - Rock pools,
+   - Under boulders
+   - Rock caves/overhangs
+]
+]
+
+.panel[.panel-name[Research vessel]
+.pull-left[
+&lt;img src="images/mirabilis.png" width="400" height="400" /&gt;
+.caption[
+Research vessel Mirabillis
+]
+]
+.pull-right[
+- Liaise with .blue[research vessel crew]
+- .blue[Catch display animals] for the Aquarium
+- .blue[Collected] from harbour 
+]
+]
+
+
+.panel[.panel-name[Rod &amp; reel]
+
+.pull-left[
+&lt;img src="images/angler.png" width="400" height="390" /&gt; 
+.caption[
+Volunteer fisherman
+]
+]
+.pull-right[
+- Arrange .blue[fishing trips] with .blue[expert anglers]
+- A few times each year
+- Catch .blue[many fish] in single trip
+]
+]
+
+
+.panel[.panel-name[Diving]
+
+.pull-left[
+&lt;img src="images/diving.gif" width="400" height="390" /&gt; 
+.caption[
+Lobster diving
+]
+]
+.pull-right[
+- Several in .blue[house &amp; volunteer] divers
+- Scuba dive close to .blue[subtidal rocks]
+   - Part of ocean .blue[where lobsters are found]
+- Use .blue[specially designed] collection buckets
+   - Easy in, hard out
+]
+]
+
+]
+
+---
+
+name: sample-transport
+
+background-image: url(https://pbs.twimg.com/media/D7Km39PXYAA3UGP?format=jpg&amp;name=large)
+background-size: cover
+
+
+# .blue[Aquatic] life transport &amp; preparation
+
+.itl-orange[
+**What's done to get the marine animals into the aquarium tanks??**
+]
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+.panel[.panel-name[Transit environment]
+.pull-left[
+&lt;img src="images/collection_tank.jpg" width="380" height="370" /&gt;
+.caption[
+Large 1000L collection tank
+]
+]
+.pull-right[
+- Fill tank with fresh .blue[seawater]
+- Aerate tank with .blue[air stone]
+- Place collected .blue[marine animals] in tank
+]
+]
+
+
+.panel[.panel-name[Transport]
+
+.pull-left[
+&lt;img src="images/bakky.jpg" width="380" height="370" /&gt; 
+.caption[
+Toyota land cruiser
+]
+]
+.pull-right[
+- Collection tank .blue[kept in bakky] during sampling period
+- .blue[Transported] to the aquarium .blue[immediately] after collection
+]
+]
+
+.panel[.panel-name[Animal quarantine]
+
+.pull-left[
+&lt;img src="images/quar_tanks.jpg" width="380" height="370" /&gt; 
+.caption[
+Quarantine tanks
+]
+]
+.pull-right[
+- Animals placed in .blue[quarantine before introduction] into Aquarium system
+- Monitored for:
+   - Any bacterial, viral or parasitic infections
+   - General health status &amp; condition
+- .blue[Sick/dying] animals disposed
+]
+]
+
+
+.panel[.panel-name[Specimen introduction]
+
+.pull-left[
+&lt;img src="images/tank_top.gif" width="380" height="370" /&gt; 
+.caption[
+Top of main tank
+]
+]
+.pull-right[
+- .blue[Healthy organisms] are thrown into the main tank .blue[from the top]
+- Use .blue[appropriate] handling gear
+   - scoop net
+   - gloves
+   - plastic trays
+]
+]
+
+]
+
+???
+Take picture of sample tank or buckets inside the bakky
+Take video of bakky in sample environment
+Take video of quarantine tanks being filled up
+Video of something being thrown into the main/small tanks
+
+
+---
+
+name: feeding
+
+background-image: url("images/commercial_fisheries.gif")
+background-size: cover
+
+
+# How are the .blue[animals] fed
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+.panel[.panel-name[Feed origin]
+.pull-left[
+&lt;img src="images/commercial_fisheries.gif" width="400" height="390" /&gt;
+.caption[
+Simulated trawling 
+]
+]
+.pull-right[
+- Feed obtained from .blue[commercial] fisheries
+   - Hake &amp; squid
+- Caught using large trawling vessels
+]
+]
+
+
+.panel[.panel-name[feed storage]
+
+.pull-left[
+&lt;img src="images/freezer.jpg" width="400" height="390" /&gt; 
+.caption[
+Freezer room
+]
+]
+.pull-right[
+- All feed kept in a large .blue[freezer room]
+- .blue[Removed &amp; thawed] when fish have to be fed
+]
+]
+
+.panel[.panel-name[Feed preparation]
+
+.pull-left[
+&lt;img src="images/oyster.png" width="400" height="390" /&gt; 
+.caption[
+Technical assistants chopping up fish
+]
+]
+.pull-right[
+- Fish filleted, de-boned and chopped into .blue[small pieces]
+- Different sizes for different size fish
+- Not all display animals eat other fish
+   - Some eat kelp, ulva, limpets, etc
+]
+]
+
+
+.panel[.panel-name[Feeding]
+
+.pull-left[
+&lt;img src="images/tank_top.gif" width="400" height="390" /&gt; 
+.caption[
+Top of main tank
+]
+]
+.pull-right[
+- Feed thrown in .blue[from tops] of all tanks
+- Diver hand feeds from inside main tank
+- At 15:00 .blue[every] single day
+
+]
+]
+
+]
+
+???
+
+
+---
+
+name: display-animals
+
+background-image: url("images/turtle.gif")
+background-size: cover
+
+
+# .blue[Aquatic] life inside Aquarium
+
+--
+
+background-image: url("")
+background-size: cover
+
+.panelset[
+.panel[.panel-name[Sea turtle]
+
+.pull-left[
+&lt;img src="images/turtle.gif" width="400" height="390" /&gt; 
+.caption[
+Green sea turtle
+]
+]
+.pull-right[
+- Highly migratory
+   - Swims &gt; 10,000km between nesting &amp; breeding sites 
+- Holds breath &gt; 45 mins
+   - Slows down heart rate
+   - Slows down O&lt;sub&gt;2&lt;/sub&gt;
+]
+]
+
+
+
+.panel[.panel-name[Starfish]
+
+.pull-left[
+&lt;img src="images/starfish.gif" width="400" height="390" /&gt; 
+.caption[
+Starfish feeding process
+]
+]
+.pull-right[
+- Found in intertidal rocks
+- Hold food using tube feed under arms
+- Push stomach out through mouth, and onto prey
+- Digest prey on outside of body
+]
+]
+
+.panel[.panel-name[Eagle ray]
+
+.pull-left[
+&lt;img src="images/stingray.gif" width="400" height="390" /&gt; 
+.caption[
+Common eagle ray 
+]
+]
+.pull-right[
+- Common near bottom of ocean floor
+- Digs up dirt with snout in search of food
+- Feeds on molluscs &amp; crustaceans
+- Barbed sting at base of tail 
+   - Self defense
+]
+]
+
+.panel[.panel-name[South African Mullet]
+.pull-left[
+&lt;img src="images/mullet.gif" width="400" height="390" /&gt;
+.caption[
+Mullet school 
+]
+]
+.pull-right[
+- Most common fish
+- Max length 30cm (ruler)
+- Normally found near shore
+   - Tidal pools, estuaries, etc
+]
+]
+
+
+]
+
+???
+
+---
+
+name: problems
+
+background-image: url("images/river.gif")
+background-size: cover
+
+
+# Common .blue[problems] faced by Aquarium
+
+--
+
+background-image: url("")
+background-size: cover
+
+
+.panelset[
+.panel[.panel-name[Murky water]
+
+.pull-left[
+&lt;img src="images/river.gif" width="400" height="390" /&gt; 
+.caption[
+Drone footage Swakopmund river outflow
+]
+]
+.pull-right[
+- Increased debris &amp; sediments in the water
+- Reduced visibility of water in displays
+- Increased strain on filtration system
+]
+]
+
+
+.panel[.panel-name[Sulphur eruption]
+
+.pull-left[
+&lt;img src="images/sulphur.jpg" width="400" height="390" /&gt; 
+.caption[
+Sulphur eruption around Walvis Bay
+]
+]
+.pull-right[
+- Excess organic matter 
+- Decays &amp; accumulates on sea floor
+- Creates hydrogen sulphide (H&lt;sub&gt;2&lt;/sub&gt;S)
+- Sulphur eruptions release H&lt;sub&gt;2&lt;/sub&gt;S into water
+   - Toxic to aquatic life (H&lt;sub&gt;2&lt;/sub&gt;S poisoning)
+]
+]
+
+
+.panel[.panel-name[Harmful algal bloom]
+
+.pull-left[
+&lt;img src="images/hab.gif" width="400" height="390" /&gt; 
+.caption[
+Microscope slide of algae cells 
+]
+]
+.pull-right[
+- Benguela upwelling increases nutrients in surface waters
+- Algal cell proliferation
+- Deplete water O&lt;sub&gt;2&lt;/sub&gt; concentration
+- Marine animals suffocate &amp; die
+]
+]
+
+]
+
+???
+
+
+
+---
+
+class: inverse, center, middle
+
+background-image: url("images/questions.gif")
+background-size: cover
+
+# Questions???
+
+
+
+---
+
+class: inverse, center, middle
+
+# Thank You!
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
