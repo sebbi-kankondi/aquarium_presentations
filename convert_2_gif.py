@@ -22,10 +22,10 @@ def convert_video_to_gif(input_file, output_file, start_time=0, end_time=None, f
     clip.write_gif(output_file)
 
 # Example usage:
-input_file = "C:/Users/Sebbi Kankondi/Documents/National Marine Aquarium/ministry_media/videos/commercial_fisheries.mp4"
-output_file = "C:/Users/Sebbi Kankondi/Documents/National Marine Aquarium/aquarium_presentations/images/commercial_fisheries.gif"
-convert_video_to_gif(input_file, output_file, start_time=19,
-                      end_time=24, fps=10, resize_ratio = 1)
+input_file = "C:/Users/Sebbi Kankondi/Documents/National Marine Aquarium/ministry_media/videos/feeding2.mov"
+output_file = "C:/Users/Sebbi Kankondi/Documents/National Marine Aquarium/aquarium_presentations/images/feeding2.gif"
+# convert_video_to_gif(input_file, output_file, start_time=19,
+#                       end_time=24, fps=10, resize_ratio = 1)
 
-# convert_video_to_gif(input_file, output_file, start_time=0,
-#                       end_time=4, fps=10, width=500, height=600)
+convert_video_to_gif(input_file, output_file, start_time=0,
+                      end_time=6, fps=10, width=300, height=600)

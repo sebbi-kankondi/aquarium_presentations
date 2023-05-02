@@ -181,7 +181,7 @@ background-size: cover
 .panelset[
 .panel[.panel-name[Main tank]
 .pull-left[
-<img src="images/main_tunnel.gif" width="400" height="340" />
+<img src="images/main_tunnel.gif" width="350" height="365" />
 .caption[
 Tunnel section
 ]
@@ -198,7 +198,7 @@ Tunnel section
 .panel[.panel-name[Small tanks]
 
 .pull-left[
-<img src="images/inter_display.gif" width="400" height="340" />
+<img src="images/inter_display.gif" width="390" height="360" />
 .caption[
 Intertidal display section
 ]
@@ -233,7 +233,7 @@ background-size: cover
 .panelset[
 .panel[.panel-name[Water intake]
 .pull-left[
-<img src="images/pump_elbow2.jpg" width="400" height="340" />
+<img src="images/jetty_pump.gif" width="360" height="365" />
 .caption[
 Submersible water pump
 ]
@@ -416,7 +416,7 @@ Aquarium gravel
 .pull-left[
 <img src="images/bacteria.gif" width="330" height="300" />
 .caption[
-Microscope recording of bacterial multiplication
+Recording of bacterial multiplication
 ]
 ]
 .pull-right[
@@ -664,7 +664,7 @@ Freezer room
 .panel[.panel-name[Feed preparation]
 
 .pull-left[
-<img src="images/oyster.png" width="400" height="390" /> 
+<img src="images/feed_prep.gif" width="350" height="400" /> 
 .caption[
 Technical assistants chopping up fish
 ]
@@ -681,9 +681,9 @@ Technical assistants chopping up fish
 .panel[.panel-name[Feeding]
 
 .pull-left[
-<img src="images/tank_top.gif" width="400" height="390" /> 
+<img src="images/feeding1.gif" width="380" height="390" /> 
 .caption[
-Top of main tank
+Diver hand feeding
 ]
 ]
 .pull-right[
@@ -809,7 +809,7 @@ background-size: cover
 .pull-left[
 <img src="images/river.gif" width="400" height="390" /> 
 .caption[
-Drone footage Swakopmund river outflow
+Drone footage of Swakopmund river outflow
 ]
 ]
 .pull-right[
