@@ -134,8 +134,8 @@ template: activities
 
 .pull-right[
 
-<img src="images/sizing.png" width="460" height="450" />
-.caption[Measuring Galjoen length
+<img src="images/sizing.png" width="480" height="450" />
+.caption[Measuring Dassie length
 ]
 ]
 
@@ -147,13 +147,13 @@ template: activities
 
 ## Conservation
 
-- Rescue and .blue[rehabilitation] center
+- Rescue & .blue[rehabilitation] center
    - Care for .blue[ill, injured or stranded] marine animals
 ]
 
 .pull-right[
 
-<img src="images/rehab1.png" width="460" height="450" />
+<img src="images/rehab1.png" width="480" height="450" />
 .caption[Treating injured sea turtle
 ]
 ]
@@ -250,7 +250,7 @@ Submersible water pump
 
 
 .pull-left[
-```{r out.width='100%', fig.height=6, eval=require('leaflet'), echo=FALSE}
+```{r out.width='100%', fig.height=4, eval=require('leaflet'), echo=FALSE}
 #read in world borders shape file
 world_border <- read_sf(paste("C:/Users/Sebbi Kankondi/Desktop/Academic/PhD/Write_Ups",
                               "/MHA_MHU/data/mapshapes",
@@ -284,7 +284,7 @@ leaflet() %>%
 
 ```
 .caption[
-Underground plumbing 
+Map of jetty to Aquarium route 
 ]
 ]
 
@@ -386,7 +386,7 @@ Cross section of filtration process
 - Removes .blue[micropollutants] through adsorption
    - Unwanted dissolved molecules .blue[attach] to surface of filter media
    - e.g., chemicals, medications, heavy metals
-- .blue[Clean] water transported to main and small tanks
+- .blue[Clean] water transported to main & small tanks
 
 ]
 ]
@@ -416,7 +416,7 @@ Aquarium gravel
 .pull-left[
 <img src="images/bacteria.gif" width="330" height="300" />
 .caption[
-Bacterial multiplication
+Microscope recording of bacterial multiplication
 ]
 ]
 .pull-right[
@@ -552,7 +552,7 @@ Large 1000L collection tank
 ]
 .pull-right[
 - Fill tank with fresh .blue[seawater]
-- Aerate tank with .blue[air stone]
+- Aerate tank with .blue[air stones]
 - Place collected .blue[marine animals] in tank
 ]
 ]
@@ -636,7 +636,7 @@ background-size: cover
 .pull-left[
 <img src="images/commercial_fisheries.gif" width="400" height="390" />
 .caption[
-Simulated trawling 
+Vessel casting trawling line 
 ]
 ]
 .pull-right[
@@ -670,7 +670,7 @@ Technical assistants chopping up fish
 ]
 ]
 .pull-right[
-- Fish filleted, de-boned and chopped into .blue[small pieces]
+- Fish filleted, de-boned & chopped into .blue[small pieces]
 - Different sizes for different size fish
 - Not all display animals eat other fish
    - Some eat kelp, ulva, limpets, etc
@@ -724,9 +724,9 @@ Green sea turtle
 ]
 ]
 .pull-right[
-- Highly migratory
+- Highly .blue[migratory]
    - Swims > 10,000km between nesting & breeding sites 
-- Holds breath > 45 mins
+- .blue[Holds breath] > 45 mins
    - Slows down heart rate
    - Slows down O<sub>2</sub>
 ]
@@ -744,9 +744,9 @@ Starfish feeding process
 ]
 .pull-right[
 - Found in intertidal rocks
-- Hold food using tube feed under arms
-- Push stomach out through mouth, and onto prey
-- Digest prey on outside of body
+- Hold food using .blue[tube feed] under arms
+- Push .blue[stomach out] through mouth, & onto prey
+- Digest prey on .blue[outside] of body
 ]
 ]
 
@@ -762,7 +762,7 @@ Common eagle ray
 - Common near bottom of ocean floor
 - Digs up dirt with snout in search of food
 - Feeds on molluscs & crustaceans
-- Barbed sting at base of tail 
+- .blue[Barbed sting] at base of tail 
    - Self defense
 ]
 ]
@@ -775,7 +775,7 @@ Mullet school
 ]
 ]
 .pull-right[
-- Most common fish
+- .blue[Most common] fish in Aquarium
 - Max length 30cm (ruler)
 - Normally found near shore
    - Tidal pools, estuaries, etc
@@ -813,9 +813,9 @@ Drone footage Swakopmund river outflow
 ]
 ]
 .pull-right[
-- Increased debris & sediments in the water
-- Reduced visibility of water in displays
-- Increased strain on filtration system
+- Increased .blue[debris & sediments] in the water
+- .blue[Reduced visibility] of water in displays
+- .blue[Increased strain] on filtration system
 ]
 ]
 
@@ -830,10 +830,10 @@ Sulphur eruption around Walvis Bay
 ]
 .pull-right[
 - Excess organic matter 
-- Decays & accumulates on sea floor
-- Creates hydrogen sulphide (H<sub>2</sub>S)
+- .blue[Decays & accumulates] on sea floor
+- Creates .blue[hydrogen sulphide] (H<sub>2</sub>S)
 - Sulphur eruptions release H<sub>2</sub>S into water
-   - Toxic to aquatic life (H<sub>2</sub>S poisoning)
+   - .blue[Toxic] to aquatic life (H<sub>2</sub>S poisoning)
 ]
 ]
 
@@ -847,10 +847,10 @@ Microscope slide of algae cells
 ]
 ]
 .pull-right[
-- Benguela upwelling increases nutrients in surface waters
-- Algal cell proliferation
-- Deplete water O<sub>2</sub> concentration
-- Marine animals suffocate & die
+- .blue[Benguela upwelling] increases nutrients in surface waters
+- Algal cell .blue[proliferation]
+- .blue[Deplete] water O<sub>2</sub> concentration
+- Marine animals .blue[suffocate & die]
 ]
 ]
 
