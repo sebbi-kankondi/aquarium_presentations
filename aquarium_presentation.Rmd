@@ -250,7 +250,7 @@ Submersible water pump
 
 
 .pull-left[
-```{r out.width='100%', fig.height=4, eval=require('leaflet'), echo=FALSE}
+```{r out.width='100%', fig.height=5, eval=require('leaflet'), echo=FALSE}
 #read in world borders shape file
 world_border <- read_sf(paste("C:/Users/Sebbi Kankondi/Desktop/Academic/PhD/Write_Ups",
                               "/MHA_MHU/data/mapshapes",
