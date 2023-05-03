@@ -125,9 +125,9 @@ template: activities
 
 ## Research
 
-- Sizing activities
+- Animal sizing activities
    - Determine .blue[growth rates]
-- Monitor behaviour 
+- Monitor animal behaviour 
    - Called .blue[ethology]
 
 ]
@@ -206,6 +206,8 @@ Intertidal display section
 .pull-right[
 - 17 tanks
 - Mostly .blue[smaller intertidal] species
+- Intertidal
+   - Area (5-20m stretch) of sea .blue[closest] to land
 ]
 ]
 ]
@@ -378,7 +380,7 @@ Filter tanks
 .pull-left[
 <img src="images/filtration.gif" width="360" height="300" />
 .caption[
-Cross section of filtration process
+Cross section of filter tank
 ]
 ]
 .pull-right[
@@ -432,12 +434,10 @@ Recording of bacterial multiplication
 
 
 ???
+Mechanical filtration
+- Physically remove unwanted particles
+Foam fractionator works in similarly to DAF
 
-Add video describing flocculation
-
-Add video describing chemical filtration
-Add picture of main tank view from entrance.
-Add video describing bio-filtration
 
 ---
 
@@ -447,7 +447,7 @@ background-image: url("images/intertidal.gif")
 background-size: cover
 
 
-# How are the .blue[marine animals] collected
+# How are the .blue[marine animals] collected???
 
 --
 
@@ -513,7 +513,8 @@ Lobster diving
 ]
 ]
 .pull-right[
-- Several in .blue[house & volunteer] divers
+- Mostly lobster diving
+   - Some other species e.g., Sea Urchins, Brittlestar
 - Scuba dive close to .blue[subtidal rocks]
    - Part of ocean .blue[where lobsters are found]
 - Use .blue[specially designed] collection buckets
@@ -624,7 +625,7 @@ background-image: url("images/commercial_fisheries.gif")
 background-size: cover
 
 
-# How are the .blue[animals] fed
+# How are the .blue[animals] fed???
 
 --
 
@@ -636,7 +637,7 @@ background-size: cover
 .pull-left[
 <img src="images/commercial_fisheries.gif" width="400" height="390" />
 .caption[
-Vessel casting trawling line 
+Vessel casting trawling net 
 ]
 ]
 .pull-right[
@@ -656,8 +657,8 @@ Freezer room
 ]
 ]
 .pull-right[
+- Feed transported to Aquarium
 - All feed kept in a large .blue[freezer room]
-- .blue[Removed & thawed] when fish have to be fed
 ]
 ]
 
@@ -670,10 +671,11 @@ Technical assistants chopping up fish
 ]
 ]
 .pull-right[
+- .blue[Removed] from freezer & .blue[thawed]
 - Fish filleted, de-boned & chopped into .blue[small pieces]
 - Different sizes for different size fish
 - Not all display animals eat other fish
-   - Some eat kelp, ulva, limpets, etc
+   - Some eat kelp, ulva etc
 ]
 ]
 
@@ -687,9 +689,11 @@ Diver hand feeding
 ]
 ]
 .pull-right[
-- Feed thrown in .blue[from tops] of all tanks
-- Diver hand feeds from inside main tank
-- At 15:00 .blue[every] single day
+- Feed either
+   - Thrown in .blue[from tops] of all tanks
+- Or,
+   - Diver hand feeds from inside main tank
+- .blue[Every] single day at 15:00 
 
 ]
 ]
@@ -744,9 +748,10 @@ Starfish feeding process
 ]
 .pull-right[
 - Found in intertidal rocks
-- Hold food using .blue[tube feed] under arms
-- Push .blue[stomach out] through mouth, & onto prey
-- Digest prey on .blue[outside] of body
+- Special feeding mechanism
+   - Hold food using .blue[tube feed] under arms
+   - Push .blue[stomach out] through mouth, & onto prey
+   - Digest prey on .blue[outside] of body
 ]
 ]
 
@@ -759,10 +764,11 @@ Common eagle ray
 ]
 ]
 .pull-right[
-- Common near bottom of ocean floor
+- Common near ocean floor
 - Digs up dirt with snout in search of food
 - Feeds on molluscs & crustaceans
 - .blue[Barbed sting] at base of tail 
+   - Toxic
    - Self defense
 ]
 ]
@@ -813,6 +819,8 @@ Drone footage of Swakopmund river outflow
 ]
 ]
 .pull-right[
+- Heavy rainfall
+- Swakopmund river flows into nearby ocean
 - Increased .blue[debris & sediments] in the water
 - .blue[Reduced visibility] of water in displays
 - .blue[Increased strain] on filtration system
