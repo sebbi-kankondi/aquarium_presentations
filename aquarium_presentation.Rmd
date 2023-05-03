@@ -447,7 +447,7 @@ background-image: url("images/intertidal.gif")
 background-size: cover
 
 
-# How are the .blue[marine animals] collected???
+# How are the .blue[animals] collected???
 
 --
 
