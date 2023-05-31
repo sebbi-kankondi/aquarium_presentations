@@ -889,6 +889,6 @@ class: inverse, center, middle
 background-image: url("images/bye.gif")
 background-size: cover
 
-# Thank You!
+# Thank You!!
 
 
