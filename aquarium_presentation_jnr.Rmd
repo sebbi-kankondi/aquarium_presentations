@@ -126,9 +126,8 @@ template: activities
 ## Research
 
 - Animal sizing activities
-   - Determine .blue[growth rates]
-- Monitor animal behaviour 
-   - Called .blue[ethology]
+   - How quickly do fish .blue[grow]?
+- Check animal behaviour 
 
 ]
 
@@ -147,7 +146,7 @@ template: activities
 
 ## Conservation
 
-- Rescue & .blue[rehabilitation] center
+- Rescue & .blue[recovery] center
    - Care for .blue[ill, injured or stranded] marine animals
 ]
 
@@ -187,10 +186,10 @@ Tunnel section
 ]
 ]
 .pull-right[
-- Majority of .blue[large fish] species
+- Most of the .blue[large fish] in the Aquarium
 - .blue[4.5m] deep
 - .blue[320 000 liters] sea water
-- 10cm thick acrylic glass display panels
+- 10cm thick glass display panels
 ]
 ]
 
@@ -205,7 +204,7 @@ Intertidal display section
 ]
 .pull-right[
 - 17 tanks
-- Mostly .blue[smaller intertidal] species
+- Mostly .blue[smaller intertidal] animal
 - Intertidal
    - Area (5-20m stretch) of sea .blue[closest] to land
 ]
@@ -237,7 +236,7 @@ background-size: cover
 .pull-left[
 <img src="images/jetty_pump.gif" width="360" height="365" />
 .caption[
-Submersible water pump
+Underwater water pump
 ]
 ]
 .pull-right[
@@ -286,12 +285,12 @@ leaflet() %>%
 
 ```
 .caption[
-Interactive map of jetty to Aquarium route 
+Clickable map of jetty to Aquarium path 
 ]
 ]
 
 .pull-right[
-- Pipes .blue[under] jetty floor boards & pavement
+- Pipes .blue[under] jetty floor & pavement
 - Transports water into aquarium
 ]
 ]
@@ -327,36 +326,12 @@ background-size: cover
 .pull-left[
 <img src="images/biofilter.png" width="360" height="300" />
 .caption[
-Fractionator, Flocculation & DAF unit
+Mechanical filter tanks
 ]
 ]
 .pull-right[
-- 1st port of .blue[water entry] into building
-- DAF = Dissolved Air Flotation
-- Works with .blue[flocculation] process
-- .blue[Removes] suspended solids e.g., phytoplankton
-]
-]
-
-
-
-.panel[.panel-name[Flocculation]
-
-.pull-left[
-<img src="images/flocculation.gif" width="360" height="300" />
-.caption[
-Flocculation process
-]
-]
-.pull-right[
-- Suspended solid material .blue[coagulated] 
-   - Small lumps form bigger lumps
-- Dissolved .blue[air surrounds] coagulated material
-- Coagulated material .blue[floats]
-- .blue[Skimmed] off the top as waste
-- Also removed at .blue[bottom] as sludge
-- Partially cleaned water transported .blue[to filter tanks]
-
+- 1st place .blue[water enters] building
+- Suspended solids e.g., phytoplankton are .blue[removed] here
 ]
 ]
 
@@ -371,29 +346,10 @@ Filter tanks
 ]
 .pull-right[
 - Water passed through filter tanks
-   - Contains activated filter media
+   - Contains activated filter material 
 - Removes unwanted solids & impurities
 ]
 ]
-
-.panel[.panel-name[Activated filter media]
-
-.pull-left[
-<img src="images/filtration.gif" width="360" height="300" />
-.caption[
-Cross section of filter tank
-]
-]
-.pull-right[
-- Also called activated charcoal/carbon
-- Removes .blue[micropollutants] through adsorption
-   - Unwanted dissolved molecules .blue[attach] to surface of filter media
-   - e.g., chemicals, medication, heavy metals
-- .blue[Clean] water transported to main & small tanks
-
-]
-]
-
 
 
 .panel[.panel-name[Biological filtration]
@@ -406,26 +362,9 @@ Aquarium gravel
 ]
 .pull-right[
 - Biological .blue[waste] collects in display tanks
-   - Urea, fecal & decaying matter
-- Increased .blue[toxic] compounds e.g., ammonia & nitrite
+   - Urea, fecal & rotting matter
+- Increased .blue[toxic] material
 - Removed by .blue[bacteria in gravel] at bottom of main tank
-
-]
-]
-
-
-.panel[.panel-name[Nitrifying bacteria]
-
-.pull-left[
-<img src="images/bacteria.gif" width="330" height="300" />
-.caption[
-Recording of bacterial multiplication
-]
-]
-.pull-right[
-- Gravel provides .blue[large surface] area for nitrifying bacteria
-- Bacteria breakdown toxic compounds into .blue[less toxic] nitrate
-- Helps create .blue[safe], clean environment for aquatic animals
 
 ]
 ]
@@ -457,7 +396,7 @@ background-size: cover
 
 .panelset[
 
-.panel[.panel-name[Intertidal sampling]
+.panel[.panel-name[Intertidal collection]
 
 .pull-left[
 <img src="images/intertidal.gif" width="400" height="390" /> 
@@ -469,22 +408,8 @@ Drone footage of rocky intertidal near Luderitz
 - Collect small display animals from rocky shores
 - .blue[Found in:]
    - Rock pools,
-   - Under boulders
-   - Rock caves/overhangs
-]
-]
-
-.panel[.panel-name[Research vessel]
-.pull-left[
-<img src="images/mirabilis.png" width="400" height="400" />
-.caption[
-Research vessel Mirabillis
-]
-]
-.pull-right[
-- Liaise with .blue[research vessel crew]
-- .blue[Catch display animals] for the Aquarium
-- .blue[Collected] from harbour 
+   - Under rocks
+   - Rock caves
 ]
 ]
 
@@ -498,7 +423,7 @@ Volunteer fisherman
 ]
 ]
 .pull-right[
-- Arrange .blue[fishing trips] with .blue[expert anglers]
+- Arrange .blue[fishing trips] with .blue[expert fishermen]
 - A few times each year
 - Catch .blue[many fish] in single trip
 ]
@@ -515,11 +440,10 @@ Lobster diving
 ]
 .pull-right[
 - Mostly lobster diving
-   - Some other species e.g., Sea Urchins, Brittlestar
 - Scuba dive close to .blue[subtidal rocks]
    - Part of ocean .blue[where lobsters are found]
-- Use .blue[specially designed] collection buckets
-   - Easy in, hard out
+- Use .blue[special] collection buckets
+   - Hard for collected animals to escape
 ]
 ]
 
@@ -533,7 +457,7 @@ background-image: url(https://pbs.twimg.com/media/D7Km39PXYAA3UGP?format=jpg&nam
 background-size: cover
 
 
-# .blue[Aquatic] life transport & preparation
+# .blue[Display animal] transport & preparation
 
 .itl-orange[
 **What's done to get the marine animals into the aquarium tanks??**
@@ -545,7 +469,7 @@ background-image: url("")
 background-size: cover
 
 .panelset[
-.panel[.panel-name[Transit environment]
+.panel[.panel-name[Collection tank]
 .pull-left[
 <img src="images/collection_tank.jpg" width="380" height="370" />
 .caption[
@@ -554,7 +478,7 @@ Large 1000L collection tank
 ]
 .pull-right[
 - Fill tank with fresh .blue[seawater]
-- Aerate tank with .blue[air stones]
+- Blow air bubbles into the water 
 - Place collected .blue[marine animals] in tank
 ]
 ]
@@ -569,8 +493,8 @@ Toyota land cruiser
 ]
 ]
 .pull-right[
-- Collection tank .blue[kept in bakky] during sampling period
-- .blue[Transported] to the aquarium .blue[immediately] after collection
+- Collection tank .blue[kept in bakky] during collection period
+- .blue[Transported] to the aquarium .blue[right] after collection
 ]
 ]
 
@@ -583,16 +507,16 @@ Quarantine tanks
 ]
 ]
 .pull-right[
-- Animals placed in .blue[quarantine before introduction] into Aquarium system
-- Monitored for:
+- Animals placed in .blue[quarantine] before being put in Aquarium
+- Checked for:
    - Any bacterial, viral or parasitic infections
-   - General health status & condition
-- .blue[Sick/dying] animals disposed
+   - General health
+- .blue[Sick/dying] animals removed
 ]
 ]
 
 
-.panel[.panel-name[Specimen introduction]
+.panel[.panel-name[Animal introduction]
 
 .pull-left[
 <img src="images/tank_top.gif" width="380" height="370" /> 
@@ -602,7 +526,7 @@ Top of main tank
 ]
 .pull-right[
 - .blue[Healthy organisms] are thrown into the main tank .blue[from the top]
-- Use .blue[appropriate] handling gear
+- Use .blue[the correct] handling gear
    - scoop net
    - gloves
    - plastic trays
@@ -611,11 +535,6 @@ Top of main tank
 
 ]
 
-???
-Take picture of sample tank or buckets inside the bakky
-Take video of bakky in sample environment
-Take video of quarantine tanks being filled up
-Video of something being thrown into the main/small tanks
 
 
 ---
@@ -638,13 +557,13 @@ background-size: cover
 .pull-left[
 <img src="images/commercial_fisheries.gif" width="400" height="390" />
 .caption[
-Vessel casting trawling net 
+Boat releasing fishing net 
 ]
 ]
 .pull-right[
-- Feed obtained from .blue[commercial] fisheries
+- Feed obtained from .blue[large fishing boats] 
    - Hake & squid
-- Caught using large trawling nets
+- Caught using large nets
 ]
 ]
 
@@ -668,11 +587,11 @@ Freezer room
 .pull-left[
 <img src="images/feed_prep.gif" width="350" height="400" /> 
 .caption[
-Technical assistants chopping up fish
+Technical assistant chopping up fish
 ]
 ]
 .pull-right[
-- .blue[Removed] from freezer & .blue[thawed]
+- .blue[Removed] from freezer & .blue[defrosted]
 - Fish filleted, de-boned & chopped into .blue[small pieces]
 - Different sizes for different size fish
 - Not all display animals eat other fish
@@ -712,7 +631,7 @@ background-image: url("images/turtle.gif")
 background-size: cover
 
 
-# .blue[Aquatic] life inside Aquarium
+# .blue[Sea] life inside Aquarium
 
 --
 
@@ -729,11 +648,11 @@ Green sea turtle
 ]
 ]
 .pull-right[
-- Highly .blue[migratory]
+- Swims .blue[large] distances
    - Swims > 10,000km between feeding & breeding sites 
 - .blue[Holds breath] > 90 mins
-   - Slows down heart rate
-   - Slows down O<sub>2</sub> consumption
+   - Slows down heart
+   - Slows down oxygen use
 ]
 ]
 
@@ -744,15 +663,15 @@ Green sea turtle
 .pull-left[
 <img src="images/starfish.gif" width="400" height="390" /> 
 .caption[
-Starfish feeding process
+Starfish feeding 
 ]
 ]
 .pull-right[
 - Found in intertidal rocks
-- Special feeding mechanism
+- Special way of feeding 
    - Hold food using .blue[tube feet] under arms
    - Push .blue[stomach out] through mouth, & onto prey
-   - Partially digest prey .blue[outside] of body
+   - Start digesting prey .blue[outside] of body
 ]
 ]
 
@@ -766,26 +685,11 @@ Common eagle ray
 ]
 .pull-right[
 - Common near ocean floor
-- Digs up dirt with snout in search of food
-- Feeds on molluscs & crustaceans
-- .blue[Barbed sting] at base of tail 
-   - Toxic
-   - Self defense
-]
-]
-
-.panel[.panel-name[South African Mullet]
-.pull-left[
-<img src="images/mullet.gif" width="400" height="390" />
-.caption[
-Mullet school 
-]
-]
-.pull-right[
-- .blue[Most common] fish in Aquarium
-- Max length 30cm (ruler)
-- Normally found near shore
-   - Tidal pools, estuaries, etc
+- Digs up dirt with "nose" in search of food
+- Feeds on crabs, mussels, shrimp, etc
+- .blue[Sting] found near body-tail connection point
+   - Poisonous
+   - Used in self defense
 ]
 ]
 
@@ -811,7 +715,7 @@ background-size: cover
 
 
 .panelset[
-.panel[.panel-name[Murky water]
+.panel[.panel-name[Dirty water]
 
 .pull-left[
 <img src="images/river.gif" width="400" height="390" /> 
@@ -822,27 +726,9 @@ Drone footage of Swakopmund river outflow
 .pull-right[
 - Heavy rainfall
 - Swakopmund river flows into nearby ocean
-- Increased .blue[debris & sediments] in the water
-- .blue[Reduced visibility] of water in displays
-- .blue[Increased strain] on filtration system
-]
-]
-
-
-.panel[.panel-name[Sulphur eruption]
-
-.pull-left[
-<img src="images/sulphur.jpg" width="400" height="390" /> 
-.caption[
-Sulphur eruption around Walvis Bay
-]
-]
-.pull-right[
-- Excess organic matter 
-- .blue[Decays & accumulates] on sea floor
-- Creates .blue[hydrogen sulphide] (H<sub>2</sub>S)
-- Sulphur eruptions release H<sub>2</sub>S into water
-   - .blue[Toxic] to aquatic life (H<sub>2</sub>S poisoning)
+- Increased .blue[dirt] in the water
+- .blue[Reduced clarity] of water in displays
+- Filtration system has to work .blue[harder]
 ]
 ]
 
@@ -856,11 +742,11 @@ Microscope slide of algae cells
 ]
 ]
 .pull-right[
-- .blue[Benguela upwelling] increases nutrients in surface waters
-- Algal cell .blue[proliferation]
-- .blue[Increase] decaying organic matter
+- .blue[Benguela upwelling] increases nutrients in water near the surface
+- .blue[Rapid increase] in algae growth
+- .blue[Increase] rotting organic matter
 - .blue[Increase] bacterial activity. 
-- .blue[Deplete] water O<sub>2</sub> concentration 
+- .blue[Reduce] amount of oxygen in water
 - Marine animals .blue[suffocate & die]
 ]
 ]
