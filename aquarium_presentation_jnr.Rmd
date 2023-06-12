@@ -28,7 +28,7 @@ background-size: cover
 
 ```{r setup, include=FALSE}
 #load multiple libraries function location
-source("C:/Users/Sebbi Kankondi/Desktop/Academic/PhD/Write_Ups/multiple_libraries.R")
+source("data/multiple_libraries.R")
 
 # read_library <- function(...) {
 #   obj <- eval(substitute(alist(...)))
@@ -253,8 +253,7 @@ Underwater water pump
 .pull-left[
 ```{r out.width='100%', fig.height=5.5, eval=require('leaflet'), echo=FALSE}
 #read in world borders shape file
-world_border <- read_sf(paste("C:/Users/Sebbi Kankondi/Desktop/Academic/PhD/Write_Ups",
-                              "/MHA_MHU/data/mapshapes",
+world_border <- read_sf(paste("mapshapes",
                               "/world_borders/TM_WORLD_BORDERS-0.3.shp", sep=""))
 
 #read in the MFMR facilities coordinates
@@ -453,7 +452,7 @@ Lobster diving
 
 name: sample-transport
 
-background-image: url(https://pbs.twimg.com/media/D7Km39PXYAA3UGP?format=jpg&name=large)
+background-image: url(images/bakky.gif)
 background-size: cover
 
 
